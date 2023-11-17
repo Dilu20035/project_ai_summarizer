@@ -84,7 +84,7 @@
 }
 
 .orange_gradient {
-  @apply bg-gradient-to-r from-red-500 via-blue-600 to-red-500 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-rose-500 via-blue-600 to-rose-500 bg-clip-text text-transparent;
 }
 
 .desc {
