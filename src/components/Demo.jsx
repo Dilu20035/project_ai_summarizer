@@ -132,13 +132,6 @@ const Demo = () => {
                 Article <span className='blue_gradient'>Summary</span>
               </h2>
               <div className='summary_box'>
-                <div className='copy_btn' onClick={() => handleCopy(item.url)}>
-                  <img
-                    src={copied === item.url ? tick : copy}
-                    alt={copied === item.url ? "tick_icon" : "copy_icon"}
-                    className='w-[40%] h-[40%] object-contain'
-                  />
-                </div>
                 <p className='font-inter font-medium text-sm text-gray-700'>
                   {article.summary}
                 </p>
